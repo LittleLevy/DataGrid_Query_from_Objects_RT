@@ -1,2 +1,12 @@
 Name: Model
 Type: FolderType
+Children:
+- File: Types/Types.yaml
+- File: Instances/Instances.yaml
+- Name: QueryMotor_Array
+  Id: g=502e88fa90a13db032ad487a8fe06c75
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [4]
+  Value: ["SELECT * FROM Model WHERE Speed < 4","SELECT * FROM Model WHERE Acceleration > 30","SELECT * FROM Model WHERE Model LIKE '%RX10%'","SELECT * FROM Model"]

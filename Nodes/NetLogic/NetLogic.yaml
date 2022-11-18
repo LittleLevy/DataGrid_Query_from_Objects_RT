@@ -1,2 +1,9 @@
 Name: NetLogic
 Type: FolderType
+Children:
+- Name: RTNetLogicAddMotor
+  Id: g=c34268a232c4716f13e0c2e3605a1694
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: AddNewMotor
